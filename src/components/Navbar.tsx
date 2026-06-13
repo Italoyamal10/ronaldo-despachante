@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { MessageCircle } from 'lucide-react'
-import { COMPANY } from '../lib/constants'
 import { openWhatsApp } from '../lib/whatsapp'
 
 export function Navbar() {
@@ -13,17 +12,11 @@ export function Navbar() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <a href="#" className="group flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-gold-500/30 bg-navy-800 font-display text-sm font-bold text-gold-500 transition-colors group-hover:border-gold-500">
-            RD
-          </div>
-          <div className="hidden sm:block">
-            <div className="flex items-center gap-3">
-              <span className="h-5 w-px bg-gold-500/50" />
-              <span className="text-xs font-semibold tracking-[0.2em] text-white/90">
-                {COMPANY.name.toUpperCase()}
-              </span>
-            </div>
-          </div>
+          <img
+            src="/logo-rd.png"
+            alt="Ronaldo Despachante"
+            className="h-12 w-auto"
+          />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
