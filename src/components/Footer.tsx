@@ -15,9 +15,11 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           <div>
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-gold-500/30 bg-navy-800 font-display text-sm font-bold text-gold-500">
-                RD
-              </div>
+              <img
+                src="/favicon.png"
+                alt="Ronaldo Despachante"
+                className="h-12 w-auto"
+              />
               <span className="font-display text-lg font-semibold text-white">
                 {COMPANY.name}
               </span>
