@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '558199165449'
+const WHATSAPP_NUMBER = '55819165449'
 
 export function openWhatsApp(
   message = 'Olá, vim pelo site e gostaria de mais informações.'
