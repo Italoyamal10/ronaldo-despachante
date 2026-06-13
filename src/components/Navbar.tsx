@@ -15,7 +15,7 @@ export function Navbar() {
           <img
             src="public/logo-rd.png"
             alt="Ronaldo Despachante"
-            className="h-16 w-auto"
+            className="h-20 w-auto"
           />
         </a>
 
