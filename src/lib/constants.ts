@@ -5,8 +5,8 @@ export const WHATSAPP_MESSAGE =
 export const COMPANY = {
   name: 'Ronaldo Despachante',
   whatsapp: '(81) 99165-4492',
-  instagram: '@ronaldodespachante',
-  instagramUrl: 'https://instagram.com/ronaldodespachante',
+  instagram: '@ronaldo_despachante',
+  instagramUrl: 'https://instagram.com/ronaldo_despachante',
   hours: 'Segunda a Sexta, 8h às 18h',
 }
 
