@@ -138,10 +138,12 @@ export function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-navy-800/80 to-navy-950/90" />
               <div className="relative flex h-full flex-col items-center justify-center p-8">
-                <div className="mb-6 flex h-32 w-32 items-center justify-center rounded-full border-2 border-gold-500/30 bg-navy-700/50">
-                  <div className="flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-navy-600 to-navy-800">
-                    <span className="font-display text-4xl text-gold-500">RD</span>
-                  </div>
+                <div className="mb-6 flex items-center justify-center">
+                  <img
+                    src="/logo-rd.jpg"
+                    alt="Ronaldo Despachante"
+                    className="h-32 w-auto"
+                  />
                 </div>
                 <p className="text-center font-display text-xl font-semibold text-white">
                   Atendimento Especializado
