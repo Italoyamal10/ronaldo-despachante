@@ -142,7 +142,7 @@ export function Hero() {
                   <img
                     src="/logo-rd.png"
                     alt="Ronaldo Despachante"
-                    className="h-32 w-auto"
+                    className="h-30 w-auto"
                   />
                 </div>
                 <p className="text-center font-display text-xl font-semibold text-white">
