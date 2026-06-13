@@ -13,7 +13,7 @@ export function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <a href="#" className="group flex items-center gap-3">
           <img
-            src="public/logo-rd.jpg"
+            src="public/logo-rd.png"
             alt="Ronaldo Despachante"
             className="h-12 w-auto"
           />

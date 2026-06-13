@@ -140,7 +140,7 @@ export function Hero() {
               <div className="relative flex h-full flex-col items-center justify-center p-8">
                 <div className="mb-6 flex items-center justify-center">
                   <img
-                    src="/logo-rd.jpg"
+                    src="/logo-rd.png"
                     alt="Ronaldo Despachante"
                     className="h-32 w-auto"
                   />
