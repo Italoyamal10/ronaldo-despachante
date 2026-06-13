@@ -1,7 +1,10 @@
-import { WHATSAPP_MESSAGE, WHATSAPP_NUMBER } from './constants'
+const WHATSAPP_NUMBER = '558199165449'
 
-export function openWhatsApp(customMessage?: string) {
-  const message = encodeURIComponent(customMessage ?? WHATSAPP_MESSAGE)
-  const url = `https://wa.me/${+5581991654492}?text=${"Olá, Gostaria de saber mais sobre os serviços do Ronaldo Despachante!"}`
-  window.open(url, '_blank', 'noopener,noreferrer')
+export function openWhatsApp(
+  message = 'Olá, vim pelo site e gostaria de mais informações.'
+) {
+  window.open(
+    `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`,
+    '_blank'
+  )
 }
